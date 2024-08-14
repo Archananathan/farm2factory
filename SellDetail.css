@@ -1,0 +1,126 @@
+/* SellForm.css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    backdrop-filter: blur(5px); /* Blur effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-dialog {
+    width: 100%;
+    max-width: 600px; /* Increased max-width for a better modal size */
+    margin: 0;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 0.5rem; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .modal-header {
+    border-bottom: 2px solid #e5e5e5;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-title {
+    margin: 0;
+    font-size: 1.5rem; /* Larger title for better visibility */
+    font-weight: 600;
+  }
+  
+  .btn-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #6c757d; /* Icon color */
+  }
+  
+  .btn-close:hover {
+    color: #495057; /* Darker color on hover */
+  }
+  
+  .modal-body {
+    padding: 1.5rem; /* Increased padding for more space */
+  }
+  
+  .form-label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-cancel {
+    background: none;
+    border: none;
+    color: #6c757d;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .btn-cancel:hover {
+    color: #495057;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 1rem; /* Space between form groups */
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    flex: 1; /* Make sure each form group takes equal space */
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem; /* Space between buttons */
+  }
+  
+  @media (max-width: 767px) {
+    .modal-dialog {
+      width: 90%;
+    }
+  }

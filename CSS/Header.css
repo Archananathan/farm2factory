@@ -1,0 +1,83 @@
+/* General Navbar styling */
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.Navbar-logo {
+    height: 70px;
+}
+
+.Navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+
+.Navbar-links li {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #4E342E;
+}
+
+.Navbar-links li a {
+    color: #4E342E;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar-links li a:hover {
+    color: #1B5E20;
+}
+
+.Navbar-icon {
+    margin-right: 8px;
+}
+
+/* Profile dropdown styling */
+.Profile-dropdown {
+    position: relative;
+}
+
+.Profile-icon {
+    cursor: pointer;
+}
+
+.Dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    min-width: 160px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #4E342E;
+}
+
+.Dropdown-menu li {
+    list-style: none;
+    margin: 5px 0;
+}
+.Dropdown-menu li a {
+    color: #4E342E;
+    text-decoration: none;
+    font-weight: 1000px;
+    font-size: larger;
+}
+
+.Dropdown-menu li a:hover {
+    background-color: #fff;
+}

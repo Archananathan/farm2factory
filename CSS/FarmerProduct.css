@@ -1,0 +1,59 @@
+
+.product-page {
+    padding: 20px;
+  }
+  
+  .card {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 450px;
+}
+  
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card-price {
+    font-size: 1.125rem;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .btn-success {
+    background-color: #1B5E20;
+    width: 200px;
+  }
+  
+  .btn-success:hover {
+    background-color: #4E342E;
+  }
+  
+  .search-icon {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+  
+  .search-input {
+    padding-right: 35px;
+  }
+   

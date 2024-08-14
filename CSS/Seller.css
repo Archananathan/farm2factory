@@ -1,0 +1,54 @@
+.why-sell-section {
+    background-color: white; /* Light blue background color */
+    padding: 40px 20px;
+    text-align: center;
+    color: #1B5E20;
+    background-color: #f0f0f0;
+}
+  
+  .why-sell-section h2 {
+    font-size: 2em;
+    color: #1B5E20;
+    margin-bottom: 30px;
+  }
+  
+  .features-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  .features-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .feature-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 6.5cm;
+  }
+  
+  .feature-card svg {
+    margin-bottom: 15px;
+    margin-top: 16px;
+    color: #1B5E20; /* Icon color */
+  }
+  
+  .feature-card h3 {
+    font-size: 1.2em;
+    color:  #4E342E;
+    margin-bottom: 19px;
+  }
+  
+  .feature-card p {
+    color: #555;
+    font-size: 0.95em;
+    line-height: 2;
+  }
+  

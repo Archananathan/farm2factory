@@ -1,0 +1,375 @@
+
+/* Hero Section */
+.hero-section {
+  margin-top: -0.5cm;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden; /* Prevents overflow issues */
+}
+.our-customers h5{ 
+  font-size: 40px; 
+  font-weight: bold;
+}
+.video-background {
+  /*position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(20%);
+  z-index: 0;
+  animation: fadeIn 2s ease-out;
+  */
+  position: absolute; /* Fixed position to ensure it stays in place */
+   /* Align to the left */
+  width: 100%; /* Full viewport width */
+  height: 100%; /* Full viewport height */
+  object-fit: cover; /* Cover the entire viewport */
+  filter: brightness(80%); /* Lightens the video background */
+  z-index: 1; /* Place behind other content */
+  animation: fadeIn 2s ease-out;
+  
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  max-width: 80%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for better text readability */
+  border-radius: 8px;
+}
+
+.hero-text {
+  animation: fadeInUp 2s ease-out;
+}
+
+
+/* Shop By Category */
+.shop-by-category {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.shop-by-category h5{
+  width: 100%;
+  top: -80px;
+  font-size: 40px;
+  margin-top: -35px;
+  background-color: #dee2df;
+  font-weight: bold;
+ 
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #dee2df;
+}
+
+.category-item {
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.category-item:hover {
+  transform: scale(1.1);
+}
+
+.category-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Our Products */
+.our-products {
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+.our-products h3{
+  font-size: 40px;
+  margin-top: -35px;
+ 
+
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-name,
+.product-weight,
+.product-price {
+  margin: 5px 0;
+}
+
+.product-rating {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  margin: 0 2px;
+}
+
+.add-button {
+  margin-top: 10px;
+}
+
+/* Feature Section */
+.feature-section {
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #dee2df;
+}
+
+
+.feature-image {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+}
+
+.feature-content {
+  max-width: 600px;
+}
+
+.feature-highlights {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight-item {
+  max-width: 200px;
+}
+
+.highlight-icon {
+  font-size: 24px;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.testimonial-title {
+  margin-bottom: 20px;
+}
+
+.testimonial-description {
+  margin-bottom: 40px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-out;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.testimonial-title {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.faq-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.faq-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.faq-item:hover {
+  transform: scale(1.05);
+}
+
+.faq-question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  color: #555;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Add this at the end of HomePage.css */
+
+/* Statistics Section */
+.stats-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+/*  scroll animation */
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base class for animating elements */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Class added when element becomes visible */
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Apply animation to sections */
+.hero-section, .stats-section, .shop-by-category, .our-products, .feature-section, .faq-section {
+  animation: fadeIn 2s ease-out;
+}
+
+
+.carousel-container {
+  padding: 20px 0;
+}
+
+.carousel-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.carousel-image {
+  max-width: 150px;
+  height: auto;
+}

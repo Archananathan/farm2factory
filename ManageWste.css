@@ -1,0 +1,132 @@
+/* Container styling */
+.manage-waste-container {
+    max-width: 600px;
+    margin: 0 auto; /* Center-align container */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .manage-waste-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Form styling */
+  .manage-waste-container form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .manage-waste-container input,
+  .manage-waste-container select,
+  .manage-waste-container button {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Full width for form elements */
+  }
+  
+  .manage-waste-container input:focus,
+  .manage-waste-container select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .sell-form-container1 button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .manage-waste-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .manage-waste-container button.cancel {
+    background-color: #6c757d;
+  }
+  
+  .manage-waste-container button.cancel:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Product list styling */
+  .manage-waste-container h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center; /* Center-align heading */
+  }
+  
+  .manage-waste-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .manage-waste-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-waste-container li span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .manage-waste-container li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .manage-waste-container li button:hover {
+    background-color: #c82333;
+  }
+  
+  .manage-waste-container li div {
+    display: flex;
+    gap: 10px;
+  }
+
+  /* Style for existing product list */
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul li span {
+  font-size: 1rem;
+}
